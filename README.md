@@ -1,1 +1,1 @@
-# .github
+# Manage premium Wordpress plugins
