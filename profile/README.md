@@ -51,7 +51,7 @@ Github va générer un Token qu'il faudra ajouter dans un fichier auth.json à l
 
 2/ Créer un nouveau repo privé portant le nom du plugin
 
-3/ Inclure dans le commit le fichier composer.json à la racine, contenu les paramètres suivants:
+3/ Inclure dans le commit le fichier composer.json à la racine, contenenant les paramètres suivants:
 ```json
 {
   "name": "paf-agency/nom-du-plugin",
