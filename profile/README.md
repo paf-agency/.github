@@ -5,6 +5,20 @@ This repository contains all WordPress plugins that require a licence and cannot
 * Formidable PRO + addons
 * WPML + addons
 
+## Pré-requis
+
+Pouvoir pouvoir connecter un site Wordpress à ce repo privé, il faut impérativement créer un Access Token en (cliquant ici)[https://github.com/settings/personal-access-tokens]
+Il faut donner un accès aux repos souhaités et donner l'autorisation suivante uniquement : "Contents" > Read-only
+
+Github va générer un Token qu'il faudra ajouter dans un fichier auth.json à la racine du projet:
+```json
+{
+  "github-oauth": {
+    "github.com": "copier-coller-la-cle-ici"
+  }
+}
+```
+
 ### Mise à jour d'un plugin existant
 
 1/ Télécharger le zip du plugin à mettre à jour.
